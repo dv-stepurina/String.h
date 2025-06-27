@@ -59,10 +59,10 @@ int main() {
 - Achieved 98% functional parity with standard library  
 - Reduced memory footprint by 15% through optimized allocations  
 - Implemented Windows/Linux/macOS compatibility layer  
-- Developed comprehensive test suite (500+ test cases)
 
 ## Build Instructions
 ```bash
+cd src
 make all       # Build static library
 make test      # Run unit tests
 make gcov_report  # Generate coverage report
