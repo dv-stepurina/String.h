@@ -1,6 +1,6 @@
 #pragma once
 
-#include "../s21_string.h"
+#include "../../s21_string.h"
 
 struct flags {
   bool minus;

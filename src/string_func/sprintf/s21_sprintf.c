@@ -115,10 +115,6 @@ const char *get_length(const char *format, struct flags *f) {  // length
       f->length = 'l';
       ++format;
       break;
-      // case 'L':
-      //   f->length = 'L';
-      //   ++format;
-      //   break;
   }
   return format;
 }
